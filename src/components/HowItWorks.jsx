@@ -1,63 +1,65 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHandPeace,
-  faSearch,
-  faGlasses,
-  faCoins,
-  faMoneyBillWave,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import iconOne from "../images/iconOne.png";
+import iconTwo from "../images/iconTwo.png";
+import iconThree from "../images/iconThree.png";
+import logo from "../images/logo.png";
 
 export function HowItWorks() {
   return (
-    <div className="bg-white md:pt-32 pt-16">
-      <h1 className="md:text-6xl text-4xl font-bold text-center text-gray-900 ">
-        How it works
+    <div className="bg-secondary md:pt-32 pt-16 pb-16">
+      <h1 className="md:text-6xl text-4xl font-bold text-center text-white ">
+        Så, hur löser vi det?
       </h1>
+      <p className="text-center max-w-2xl text-xl text-gray-300 mx-auto mt-5">
+        Bra att du frågar. Volta Seafeed är ett helt och hållet sjögräsbaserat
+        matsuppliment som korna får. 100 gram om dagen för att vara exakt.
+        Fortfarande svårt att förstå? Inga problem.
+      </p>
 
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-14 md:py-32 py-12   md:text-left text-center md:w-10/12 w-11/12  mx-auto ">
+      <div className="grid lg:grid-cols-4 grid-cols-1 gap-14 md:py-32 py-12   md:text-left text-center w-11/12  mx-auto ">
         <div>
-          <FontAwesomeIcon
-            className="text-5xl mb-6 text-indigo-500"
-            icon={faSearch}
-          />
+          <img src={iconOne} className="h-20 mb-4" />
 
-          <h1 className="text-3xl text-gray-900 pb-3 font-semibold">
-            Take a look on the jobs
+          <h1 className="text-3xl text-white pb-3 font-semibold">
+            Vi odlar speciella alger
           </h1>
-          <p className="text-xl font-light">
-            On the job board you can find jobs at exciting tech companies. Take
-            a look and see if you find something interesting.
+          <p className="text-xl font-light text-gray-300">
+            Algerna odlas i Lysekil. Sedan levereras dem ut till bondgårdar runt
+            om i landet.
           </p>
         </div>
 
         <div>
-          <FontAwesomeIcon
-            className="text-5xl mb-6 text-yellow-400"
-            icon={faHandPeace}
-          />
+          <img src={iconTwo} className="h-20 mb-4" />
 
-          <h1 className="text-3xl text-gray-900 pb-3  font-semibold">
-            Refer a friend or yourself
+          <h1 className="text-3xl text-white pb-3  font-semibold">
+            Vi matar korna med algerna
           </h1>
-          <p className="text-xl font-light">
-            Found a job that would be a perfect fit for your friend (or
-            youself)? Don't be shy, refer them!
+          <p className="text-xl font-light text-gray-300">
+            Bönderna lägger till pulveriserad alger i kosten, nyttigt och
+            klimatsmart!
           </p>
         </div>
 
         <div>
-          <FontAwesomeIcon
-            className="text-5xl mb-6 text-green-500"
-            icon={faMoneyBillWave}
-          />
+          <img src={iconThree} className="h-20 mb-4" />
 
-          <h1 className="text-3xl  text-gray-900 pb-3 font-semibold">
-            Get paid for your referral
+          <h1 className="text-3xl  text-white pb-3 font-semibold">
+            Algerna minskar metanutsläppen
           </h1>
-          <p className="text-xl font-light">
-            If it was a good fit and your referral results in an interview or an
-            hiring, you will get rewarded.
+          <p className="text-xl font-light text-gray-300">
+            Algerna bromsar jäsningen i en av deras magar och minskar
+            metanutsläppet.
+          </p>
+        </div>
+
+        <div>
+          <img src={logo} className="h-20 mb-4" />
+
+          <h1 className="text-3xl  text-white pb-3 font-semibold">
+            Cowfunded märkta produkter
+          </h1>
+          <p className="text-xl font-light text-gray-300">
+            Genom att köpa Cowfunded produkter hjälper du oss bla bla bla.
           </p>
         </div>
       </div>

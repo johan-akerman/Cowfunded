@@ -2,7 +2,7 @@ import chart from "../images/chart.png";
 
 export function Problem() {
   return (
-    <div className="bg-secondary  pt-16 pb-16">
+    <div className="bg-secondary  pt-16 pb-16" id="problem">
       <h1 className="md:text-6xl text-4xl font-bold text-center text-white ">
         Vad är problemet med kofisar?
       </h1>

@@ -1,9 +1,20 @@
+import React, { useRef, useEffect, useState } from "react";
+import { Map } from "../components/Locations/Map.jsx";
+import { Navbar } from "../components/Navbar";
+import { Sidebar } from "../components/Locations/Sidebar.jsx";
+
 function Locations() {
   return (
-    <div className="grid grid-cols-7 text-white">
-      <div className="col-span-2 bg-secondary h-screen">Stores goes here</div>
-      <div className="col-span-5 bg-gray-800 h-screen">Map goes here</div>
-    </div>
+    <>
+      <div className="grid grid-cols-7 text-black">
+        <div className="col-span-2 bg-secondary h-screen">
+          <Sidebar />
+        </div>
+        <div className="col-span-5 max-h-screen">
+          <Map />
+        </div>
+      </div>
+    </>
   );
 }
 

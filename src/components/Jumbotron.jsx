@@ -17,10 +17,10 @@ export function Jumbotron() {
         </p>
         <div className="mt-4 mb-12 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <Link
-            to="/job-board"
-            className="transform ease-in duration-100 hover:-translate-y-1 hover:shadow-lg md:mx-0 mx-auto w-72 text-primary shadow font-semibold rounded-xl flex items-center justify-center px-8 py-3 border border-transparent bg-secondary  md:py-4 md:text-xl md:px-10"
+            to="/locations"
+            className="transform ease-in duration-100 hover:-translate-y-1 hover:shadow-lg md:mx-0 mx-auto w-56 text-primary shadow font-semibold rounded-xl flex items-center justify-center px-2 py-3 border border-transparent bg-secondary  md:py-4 md:text-xl md:px-10"
           >
-            <img src={pin} className="h-6 mr-3" /> Hitta återförsäljare
+            <img src={pin} className="h-6 mr-3" /> Hitta affärer
           </Link>
         </div>
       </div>

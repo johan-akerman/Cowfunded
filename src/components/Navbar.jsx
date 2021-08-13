@@ -1,46 +1,35 @@
-import { Disclosure } from "@headlessui/react";
-import logoInverted from "../images/logoInverted.png";
-import HowIt from "./HowIt";
+import logo from "../images/cowfunding_black.png";
+import pin from "../images/pin.png";
 import { Link } from "react-router-dom";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export function Navbar() {
   return (
     <div className="bg-primary">
       <div className="flex justify-between py-4 w-11/12 mx-auto">
         <Link className="flex" to="/">
-          <img className="h-16" src={logoInverted} />
-          <span className="md:pl-4 pl-2 mt-1 ">
-            <h1 className="md:text-3xl text-2xl text-black font-medium uppercase">
-              Cowfunded
-            </h1>
-            <p className="text-black -mt-1 uppercase">By Volta Greentech</p>
-          </span>
+          <img className="h-20" src={logo} />
         </Link>
 
-        <div className="mt-5 ">
-          <Link
+        <div className="mt-5 lg:flex hidden ">
+          <a
             className="text-black text-lg font-semibold hover:opacity-50 pr-10"
-            to="/"
+            href="#calculator"
           >
-            Home
-          </Link>
+            Impact kalkylatorn
+          </a>
+
+          <a
+            className="text-black text-lg font-semibold hover:opacity-50 pr-10"
+            href="#faq"
+          >
+            Vanliga frågor
+          </a>
 
           <Link
-            className="text-black text-lg font-semibold hover:opacity-50 pr-10"
-            to="/faq"
-          >
-            FAQ
-          </Link>
-
-          <Link
-            className="mt-10 w-44 justify-center px-8 py-4 bg-black text-primary rounded-xl text-lg font-semibold"
             to="/locations"
+            className="-mt-4 mb-4 transform ease-in duration-100 hover:-translate-y-1 hover:shadow-lg md:mx-0 mx-auto w-56 text-primary shadow font-semibold rounded-xl flex items-center justify-center px-2 py-3 border border-transparent bg-secondary  md:text-xl "
           >
-            Find reseller
+            <img src={pin} className="h-6 mr-3" /> Hitta affärer
           </Link>
         </div>
       </div>

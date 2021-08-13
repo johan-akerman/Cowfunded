@@ -5,7 +5,7 @@ import logo from "../images/logo.png";
 
 export function HowItWorks() {
   return (
-    <div className="bg-secondary md:pt-32 pt-16 pb-16">
+    <div className="bg-secondary md:pt-32 pt-16 pb-16" id="solution">
       <h1 className="md:text-6xl text-4xl font-bold text-center text-white ">
         Så, hur löser vi det?
       </h1>
@@ -15,7 +15,7 @@ export function HowItWorks() {
         Fortfarande svårt att förstå? Inga problem.
       </p>
 
-      <div className="grid lg:grid-cols-4 grid-cols-1 gap-14 md:py-32 py-12   md:text-left text-center w-11/12  mx-auto ">
+      <div className="grid lg:grid-cols-4 grid-cols-1 gap-14 md:pt-32   md:text-left text-center w-11/12  mx-auto ">
         <div>
           <img src={iconOne} className="h-20 mb-4" />
 

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../images/logo.png";
+import logo from "../images/cowfunding_yellow.png";
 
 export function Footer() {
   return (
@@ -7,17 +7,11 @@ export function Footer() {
       <div className="w-11/12 mx-auto pt-20 pb-8 flex flex-col sm:flex-row space-y-2 justify-start">
         <div className="w-full sm:w-5/5 pr-6 flex flex-col space-y-2 pb-6">
           <Link className="flex" to="/">
-            <img className="h-16" src={logo} />
-            <span className="md:pl-4 pl-2 mt-1 ">
-              <h1 className="md:text-3xl text-2xl text-white font-medium uppercase">
-                Cowfunded
-              </h1>
-              <p className="text-white -mt-1 uppercase">By Volta Greentech</p>
-            </span>
+            <img className="h-20" src={logo} />
           </Link>
-          <p className="pt-4 text-lg w-96">
-            Cowfunded är ett initiativ av Volta Greentech, ett startup som bla
-            bla bla.
+          <p className="pt-4 text-lg md:w-96 w-72">
+            Cowfunded är ett initiativ av Volta Greentech, ett företag som vill
+            reducera metangasutsläpp från kor med ett fodertillskott av sjögräs.
           </p>
           <p className="text-lg">
             Läs mer på{" "}
@@ -32,31 +26,31 @@ export function Footer() {
         </div>
         <div className="sm:w-2/5 flex flex-col space-y-2 pb-6">
           <h1 className="text-2xl font-semibold pb-3">Om Cowfunding</h1>
-          <Link
+          <a
             className="w-40 opacity-60 hover:opacity-100 font-semibold text-lg"
-            to="/"
+            href="#problem"
           >
             Om problemet
-          </Link>
-          <Link
+          </a>
+          <a
             className="w-40 opacity-60 hover:opacity-100 font-semibold text-lg"
-            to="/"
+            href="#solution"
           >
             Om lösningen
-          </Link>
+          </a>
 
-          <Link
+          <a
             className="w-40 opacity-60 hover:opacity-100 font-semibold text-lg"
-            to="/"
+            href="#calculator"
           >
             Impact kalkylator
-          </Link>
-          <Link
+          </a>
+          <a
             className="w-40 opacity-60 hover:opacity-100 font-semibold text-lg"
-            to="/"
+            href="#faq"
           >
             Vanliga frågor
-          </Link>
+          </a>
 
           <Link
             className="w-40 opacity-60 hover:opacity-100 font-semibold text-lg"

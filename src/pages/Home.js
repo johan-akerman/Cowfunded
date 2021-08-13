@@ -22,22 +22,18 @@ function Home() {
       <Calculator />
 
       <FAQ
-        questionOne="q"
-        answerOne="a"
-        questionTwo="q"
-        answerTwo="a"
-        questionThree="q"
-        answerThree="a"
-        questionFour="q"
-        answerFour="a"
-        questionFive="q"
-        answerFive="a"
+        questionOne="Question goes here?"
+        answerOne="Answer goes here"
+        questionTwo="Question goes here?"
+        answerTwo="Answer goes here"
+        questionThree="Question goes here?"
+        answerThree="Answer goes here"
+        questionFour="Question goes here?"
+        answerFour="Answer goes here"
+        questionFive="Question goes here?"
+        answerFive="Answer goes here"
       />
-      {/* <Banner
-        title="Hitta Cowfunded märkta produkter nära mig"
-        button="Titta på kartan"
-        link="/locations"
-      /> */}
+
       <Footer />
     </div>
   );

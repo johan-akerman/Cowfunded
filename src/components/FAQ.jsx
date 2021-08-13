@@ -12,7 +12,7 @@ export function FAQ({
   answerFive,
 }) {
   return (
-    <div className="bg-primary md:pb-24 pb-12 text-center">
+    <div className="bg-primary md:pb-24 pb-12 text-center" id="faq">
       <h1 className="md:pt-24 pt-16 md:pb-12 pb-8 text-black  md:text-6xl text-4xl font-bold">
         Har du några frågor?
       </h1>

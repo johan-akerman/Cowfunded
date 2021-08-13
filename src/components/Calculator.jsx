@@ -7,7 +7,7 @@ export function Calculator() {
   const [state, setState] = useState({ x: 4 });
 
   return (
-    <div className="bg-secondary pb-40 ">
+    <div className="bg-secondary pb-40 pt-32 " id="calculator">
       <div className="grid grid-cols-2 w-11/12 mx-auto ">
         <div className="mr-12">
           {" "}

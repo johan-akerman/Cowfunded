@@ -1,0 +1,35 @@
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [18.065, 59.33252]
+    },
+    "properties": {
+      "title": "Store name",
+      "address": "Store address"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [18.055, 59.33052]
+    },
+    "properties": {
+      "title": "Store name",
+      "address": "Store address"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [18.068, 59.33862]
+    },
+    "properties": {
+      "title": "Store name",
+      "address": "Store address"
+    }
+  }
+]

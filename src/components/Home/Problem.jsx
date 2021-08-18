@@ -17,13 +17,13 @@ export function Problem() {
           <h1 className="md:text-6xl text-4xl font-bold text-white ">
             Vad är problemet med kofisar?
           </h1>
-          <p className="text-xl text-gray-300 mt-5">
+          <p className="md:text-xl text-lg text-gray-300 mt-5">
             Jo, det finns ungefär en miljard kor på planeten, och tillsammans
             producerar de över 4% av världens växthusgasutsläpp endast genom att
             rapa och prutta metangas (Sverige 5,7%). Det är dubbelt så mycket
             utsläpp som alla världens flygplan står för.
           </p>
-          <div className="flex gap-4 mt-8">
+          <div className="flex gap-4 mt-8 flex-wrap md:justify-start justify-center">
             <button
               className={cowsVsCountries ? active : inactive}
               onClick={() => setCowsVsCountries(true)}
@@ -39,7 +39,7 @@ export function Problem() {
             </button>
           </div>
         </div>
-        <div className="mt-20 text-white ml-20 mx-0 md:col-span-1 col-span-2">
+        <div className="mt-20 text-white  md:ml-20 ml-6 mx-0 md:col-span-1 col-span-2">
           <img src={cowsVsCountries ? chart : cowsVsAirplanes} />
         </div>
       </div>

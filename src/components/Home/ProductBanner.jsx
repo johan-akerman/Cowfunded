@@ -8,7 +8,7 @@ export function ProductBanner() {
           <h1 className="md:text-6xl text-4xl font-bold text-white ">
             Först ut är Coop med Coop Mellanmjölk!
           </h1>
-          <p className="text-xl text-gray-300 mt-5">
+          <p className="md:text-xl text-lg text-gray-300 mt-5">
             Coop är bland de första i världen att implementera fodertillskott
             för att minska kors pruttar och rapar. Coop har satt det
             revolutionerande målet att tillsammans med svenska gårdar reducera
@@ -23,7 +23,7 @@ export function ProductBanner() {
           </p>
         </div>
 
-        <div className=" text-white ml-20 mx-0 md:col-span-1 col-span-2">
+        <div className="text-white md:ml-20  md:w-full w-2/3 md:mx-0 mx-auto md:mt-0 mt-12 md:col-span-1 col-span-2">
           <img src={milk} />
         </div>
       </div>

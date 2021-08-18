@@ -9,7 +9,7 @@ export function FAQCard({ question, answer }) {
         <Disclosure>
           {({ open }) => (
             <>
-              <Disclosure.Button className="border-b-2 border-black flex justify-between w-full py-3 px-2 text-xl align-middle font-semibold focus:outline-none">
+              <Disclosure.Button className="border-b-2 border-black flex justify-between w-full py-3 px-2 text-xl text-left align-middle font-semibold focus:outline-none">
                 <span clasName={open ? "text-primary" : "text-black"}>
                   {question}
                 </span>
@@ -19,7 +19,7 @@ export function FAQCard({ question, answer }) {
                   icon={open ? faMinus : faPlus}
                 />
               </Disclosure.Button>
-              <Disclosure.Panel className="px-2 pt-4 text-lg text-black">
+              <Disclosure.Panel className="px-2 pt-4 text-lg text-left text-black">
                 {answer}
               </Disclosure.Panel>
             </>

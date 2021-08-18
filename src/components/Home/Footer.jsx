@@ -10,7 +10,7 @@ export function Footer() {
         <div className="w-11/12 mx-auto pt-8 pb-8 flex flex-col sm:flex-row space-y-2 justify-start">
           <div className="w-full sm:w-5/5 pr-6 flex flex-col space-y-2 pb-6">
             <Link className="flex" to="/">
-              <img className="h-20" src={logo} />
+              <img className="md:h-20 h-16" src={logo} />
             </Link>
             <p className="pt-4 text-lg md:w-96 w-72">
               Cowfunding är ett initiativ av Volta Greentech, ett svenskt

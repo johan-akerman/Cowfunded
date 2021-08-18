@@ -29,11 +29,14 @@ const texts = [
 export function HowItWorks() {
   return (
     <div className="bg-secondary ">
-      <div className="md:pt-24 pt-16 pb-32 w-10/12 mx-auto" id="solution">
+      <div
+        className="md:pt-24 pt-16 md:pb-32 pb-12 w-10/12 mx-auto"
+        id="solution"
+      >
         <h1 className="md:text-left text-center  md:text-6xl text-4xl font-bold text-white ">
           Så, hur löser vi det?
         </h1>
-        <p className="md:text-left text-center text-xl text-gray-300 mx-auto mt-5">
+        <p className="md:text-left text-center md:text-xl text-lg text-gray-300 mx-auto mt-5 md:mb-0 mb-16">
           Ett riktigt problem behöver en riktig lösning. Låt oss berätta hur det
           fungerar.
         </p>
@@ -42,11 +45,13 @@ export function HowItWorks() {
           {texts.map((item) => {
             return (
               <div>
-                <img src={item.image} className="h-20 mb-4" />
+                <img src={item.image} className="h-20 mb-4 md:mx-0 mx-auto" />
                 <h1 className="text-3xl text-white pb-3 font-semibold">
                   {item.title}
                 </h1>
-                <p className="text-xl font-light text-gray-300">{item.text}</p>
+                <p className="md:text-xl text-lg font-light text-gray-300">
+                  {item.text}
+                </p>
               </div>
             );
           })}

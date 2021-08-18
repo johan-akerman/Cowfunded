@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Map } from "../components/Locations/Map.jsx";
-import { Navbar } from "../components/Navbar";
 import { Sidebar } from "../components/Locations/Sidebar.jsx";
 
 function Locations() {

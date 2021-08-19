@@ -6,7 +6,7 @@ export function Sidebar({ stores }) {
   return (
     <div className="p-6 max-h-screen overflow-y-scroll">
       <Link to="/">
-        <img className="h-20 mb-8 mt-4" src={logo} />
+        <img className="h-20 mb-8 mt-4 lg:block hidden" src={logo} />
       </Link>
 
       {stores

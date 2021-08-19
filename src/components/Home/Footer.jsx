@@ -60,7 +60,7 @@ export function Footer() {
               className="w-40 opacity-60 hover:opacity-100 font-semibold text-lg"
               to="/locations"
             >
-              Hitta återförsäljare
+              Hitta produkter
             </Link>
           </div>
 

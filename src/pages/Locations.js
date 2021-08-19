@@ -109,18 +109,7 @@ var stores = {
 };
 
 function Locations() {
-  return (
-    <>
-      <div className="grid grid-cols-7 text-black h-screen">
-        <div className="col-span-2 bg-secondary">
-          <Sidebar stores={stores} />
-        </div>
-        <div className="col-span-5 ">
-          <Map stores={stores} />
-        </div>
-      </div>
-    </>
-  );
+  return <Map stores={stores} />;
 }
 
 export default Locations;

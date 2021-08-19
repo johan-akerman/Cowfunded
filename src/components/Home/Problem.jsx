@@ -11,19 +11,19 @@ const inactive =
 export function Problem() {
   const [cowsVsCountries, setCowsVsCountries] = useState(true);
   return (
-    <div className="bg-secondary md:pb-12 pb-0">
-      <div className="grid grid-cols-2 md:w-10/12 w-11/12 mx-auto">
-        <div className="mt-12 md:col-span-1 col-span-2 md:text-left text-center">
-          <h1 className="md:text-6xl text-4xl font-bold text-white ">
+    <div className="bg-secondary lg:pb-12 pb-0" id="problem">
+      <div className="grid grid-cols-2 lg:w-10/12 w-11/12 mx-auto">
+        <div className="mt-12 lg:col-span-1 col-span-2 lg:text-left text-center">
+          <h1 className="lg:text-6xl text-4xl font-bold text-white ">
             Vad är problemet med kofisar?
           </h1>
-          <p className="md:text-xl text-lg text-gray-300 mt-5">
+          <p className="lg:text-xl text-lg text-gray-300 mt-5">
             Jo, det finns ungefär en miljard kor på planeten, och tillsammans
             producerar de över 4% av världens växthusgasutsläpp endast genom att
             rapa och prutta metangas (Sverige 5,7%). Det är dubbelt så mycket
             utsläpp som alla världens flygplan står för.
           </p>
-          <div className="flex gap-4 mt-8 flex-wrap md:justify-start justify-center">
+          <div className="flex gap-4 mt-8 flex-wrap lg:justify-start justify-center">
             <button
               className={cowsVsCountries ? active : inactive}
               onClick={() => setCowsVsCountries(true)}
@@ -39,7 +39,7 @@ export function Problem() {
             </button>
           </div>
         </div>
-        <div className="mt-20 text-white  md:ml-20 ml-6 mx-0 md:col-span-1 col-span-2">
+        <div className="mt-20 text-white  lg:ml-20 ml-6 mx-0 lg:col-span-1 col-span-2">
           <img src={cowsVsCountries ? chart : cowsVsAirplanes} />
         </div>
       </div>

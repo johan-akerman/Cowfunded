@@ -28,28 +28,28 @@ const texts = [
 
 export function HowItWorks() {
   return (
-    <div className="bg-secondary ">
+    <div className="bg-secondary">
       <div
-        className="md:pt-24 pt-16 md:pb-32 pb-12 w-10/12 mx-auto"
+        className="lg:pt-24 pt-16 lg:pb-32 pb-12 w-10/12 mx-auto"
         id="solution"
       >
-        <h1 className="md:text-left text-center  md:text-6xl text-4xl font-bold text-white ">
+        <h1 className="lg:text-left text-center  lg:text-6xl text-4xl font-bold text-white ">
           Så, hur löser vi det?
         </h1>
-        <p className="md:text-left text-center md:text-xl text-lg text-gray-300 mx-auto mt-5 md:mb-0 mb-16">
+        <p className="lg:text-left text-center lg:text-xl text-lg text-gray-300 mx-auto mt-5 lg:mb-0 mb-16">
           Ett riktigt problem behöver en riktig lösning. Låt oss berätta hur det
           fungerar.
         </p>
 
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-14 md:pt-24 md:text-left text-center ">
+        <div className="grid lg:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-14 lg:pt-24 lg:text-left text-center ">
           {texts.map((item) => {
             return (
               <div>
-                <img src={item.image} className="h-20 mb-4 md:mx-0 mx-auto" />
+                <img src={item.image} className="h-20 mb-4 lg:mx-0 mx-auto" />
                 <h1 className="text-3xl text-white pb-3 font-semibold">
                   {item.title}
                 </h1>
-                <p className="md:text-xl text-lg font-light text-gray-300">
+                <p className="lg:text-xl text-lg font-light text-gray-300">
                   {item.text}
                 </p>
               </div>

@@ -3,12 +3,12 @@ import milk from "../../images/milk_transparent.png";
 export function ProductBanner() {
   return (
     <div className="bg-secondary  pb-0">
-      <div className="grid grid-cols-2 md:w-10/12 w-11/12 mx-auto">
-        <div className="mt-8 md:col-span-1 col-span-2 md:text-left text-center">
-          <h1 className="md:text-6xl text-4xl font-bold text-white ">
+      <div className="grid grid-cols-2 lg:w-10/12 w-11/12 mx-auto">
+        <div className="mt-8 lg:col-span-1 col-span-2 lg:text-left text-center">
+          <h1 className="lg:text-6xl text-4xl font-bold text-white ">
             Först ut är Coop med Coop Mellanmjölk!
           </h1>
-          <p className="md:text-xl text-lg text-gray-300 mt-5">
+          <p className="lg:text-xl text-lg text-gray-300 mt-5">
             Coop är bland de första i världen att implementera fodertillskott
             för att minska kors pruttar och rapar. Coop har satt det
             revolutionerande målet att tillsammans med svenska gårdar reducera
@@ -23,7 +23,7 @@ export function ProductBanner() {
           </p>
         </div>
 
-        <div className="text-white md:ml-20  md:w-full w-2/3 md:mx-0 mx-auto md:mt-0 mt-12 md:col-span-1 col-span-2">
+        <div className="text-white lg:ml-20  lg:w-full w-2/3 lg:mx-0 mx-auto lg:mt-0 mt-12 lg:col-span-1 col-span-2">
           <img src={milk} />
         </div>
       </div>

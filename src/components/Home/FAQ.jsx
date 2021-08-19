@@ -16,8 +16,8 @@ export function FAQ({
   return (
     <div>
       <img src={frame} />
-      <div className="bg-primary md:pb-24 pb-12 text-center" id="faq">
-        <h1 className="md:pt-20 pt-16 md:pb-12 pb-8 text-black  md:text-6xl text-4xl font-bold">
+      <div className="bg-primary lg:pb-24 pb-12 text-center" id="faq">
+        <h1 className="lg:pt-20 pt-16 lg:pb-12 pb-8 text-black  lg:text-6xl text-4xl font-bold">
           Vanliga frågor
         </h1>
 

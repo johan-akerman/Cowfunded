@@ -1,5 +1,11 @@
 import pin from "../../images/marker.png";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTimes,
+  faDirections,
+  faExternalLinkAlt,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 
@@ -53,24 +59,46 @@ export function CowMarker({ marker }) {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-center align-middle transition-all transform bg-white shadow-xl rounded-2xl">
-                <Dialog.Title className="text-3xl font-medium leading-6 text-gray-900">
-                  {marker.properties.title}
-                </Dialog.Title>
-                <div className="mt-2">
-                  <p className="text-xl text-gray-500">
-                    {marker.properties.address}
-                  </p>
-                </div>
-
-                <div className="mt-4">
+              <div className="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-xl">
+                <div className="flex justify-between">
+                  <h1 className="text-3xl font-medium leading-6 text-gray-900">
+                    {marker.properties.title}
+                  </h1>
                   <button
                     type="button"
-                    className="inline-flex justify-center px-4 py-2 text-sm font-medium text-red-900 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                    className="text-2xl hover:font-red focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     onClick={closeModal}
                   >
-                    Close me!
+                    <FontAwesomeIcon
+                      className="hover:text-red-500"
+                      icon={faTimes}
+                    />
                   </button>
+                </div>
+                <div className="mt-2">
+                  <p className="text-xl pb-2 text-gray-500">
+                    <FontAwesomeIcon className="mr-3" icon={faMapMarkerAlt} />
+                    {marker.properties.address}
+                  </p>
+                  <a
+                    className="text-xl pb-2 text-gray-500 block hover:text-primary cursor-pointer"
+                    href={marker.properties.website}
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon
+                      className="mr-2 texl-lg"
+                      icon={faExternalLinkAlt}
+                    />
+                    Öpnna hemsida
+                  </a>
+                  <a
+                    className="text-xl text-gray-500 hover:text-primary cursor-pointer"
+                    href={marker.properties.directions}
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon className="mr-3" icon={faDirections} />
+                    Få vägvisning
+                  </a>
                 </div>
               </div>
             </Transition.Child>

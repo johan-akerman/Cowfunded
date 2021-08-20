@@ -3,6 +3,7 @@ import mapboxgl from "mapbox-gl";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Navbar } from "../Home/Navbar";
 
 import logo from "../../images/cowfunded_yellow.png";
 import { Link } from "react-router-dom";
@@ -66,40 +67,45 @@ export function Map({ stores }) {
   }
 
   return (
-    <div className="grid grid-cols-7 text-black h-screen">
-      <div className="lg:col-span-2 col-span-7 lg:order-1 order-2 bg-secondary">
-        <div className="p-6 max-h-screen overflow-y-scroll">
-          <Link to="/">
-            <img className="h-20 mb-8 mt-4 lg:block hidden" src={logo} />
-          </Link>
+    <>
+      <div className="lg:hidden block">
+        <Navbar />
+      </div>
+      <div className="grid grid-cols-7 text-black h-screen">
+        <div className="lg:col-span-2 col-span-7 lg:order-1 order-2 bg-secondary">
+          <div className="p-6 max-h-screen overflow-y-scroll">
+            <Link to="/">
+              <img className="h-20 mb-8 mt-4 lg:block hidden" src={logo} />
+            </Link>
 
-          {stores
-            ? stores.features.map((store) => {
-                return (
-                  <div
-                    onClick={() => flyToStore(store)}
-                    className="border-b-2 border-gray-700 flex justify-between py-3 text-white hover:text-primary hover:border-primary cursor-pointer"
-                  >
-                    <div>
-                      <h1 className="font-semibold text-xl">
-                        {store.properties.title}
-                      </h1>
-                      <p className="">{store.properties.address}</p>
+            {stores
+              ? stores.features.map((store) => {
+                  return (
+                    <div
+                      onClick={() => flyToStore(store)}
+                      className="border-b-2 border-gray-700 flex justify-between py-3 text-white hover:text-primary hover:border-primary cursor-pointer"
+                    >
+                      <div>
+                        <h1 className="font-semibold text-xl">
+                          {store.properties.title}
+                        </h1>
+                        <p className="">{store.properties.address}</p>
+                      </div>
+                      <FontAwesomeIcon
+                        className="mt-2 text-4xl"
+                        icon={faArrowRight}
+                      />
                     </div>
-                    <FontAwesomeIcon
-                      className="mt-2 text-4xl"
-                      icon={faArrowRight}
-                    />
-                  </div>
-                );
-              })
-            : null}
+                  );
+                })
+              : null}
+          </div>
+        </div>
+        <div className="lg:col-span-5 col-span-7 lg:order-2 order-1 lg:h-auto h-96">
+          <div className="h-full" ref={mapContainerRef} />;
         </div>
       </div>
-      <div className="lg:col-span-5 col-span-7 lg:order-2 order-1 lg:h-auto h-96">
-        <div className="h-full" ref={mapContainerRef} />;
-      </div>
-    </div>
+    </>
   );
 }
 

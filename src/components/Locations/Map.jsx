@@ -73,7 +73,7 @@ export function Map({ stores }) {
       </div>
       <div className="grid grid-cols-7 text-black h-screen">
         <div className="lg:col-span-2 col-span-7 lg:order-1 order-2 bg-secondary">
-          <div className="p-6 max-h-screen md:overflow-y-scroll overflow-y-hidden">
+          <div className="p-6 md:max-h-screen h-auto md:overflow-y-scroll overflow-y-hidden">
             <Link to="/">
               <img className="h-20 mb-8 mt-4 lg:block hidden" src={logo} />
             </Link>

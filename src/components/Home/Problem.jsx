@@ -23,9 +23,11 @@ export function Problem() {
             rapa och prutta metangas (Sverige 5,7%). Det är dubbelt så mycket
             utsläpp som alla världens flygplan står för.
           </p>
-          <div className="flex gap-4 mt-8 flex-wrap lg:justify-start justify-center">
+          <div className="flex mt-8 flex-wrap lg:justify-start justify-center">
             <button
-              className={cowsVsCountries ? active : inactive}
+              className={`md:mr-4 mr-0 md:mb-0 mb-4 ${
+                cowsVsCountries ? active : inactive
+              }`}
               onClick={() => setCowsVsCountries(true)}
             >
               Kor vs länder

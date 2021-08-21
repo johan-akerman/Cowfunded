@@ -75,13 +75,13 @@ export function CowMarker({ marker }) {
                     />
                   </button>
                 </div>
-                <div className="mt-2">
-                  <p className="text-xl pb-2 text-gray-500">
+                <div className="mt-4">
+                  <p className="md:text-xl text-md pb-2 text-gray-500">
                     <FontAwesomeIcon className="mr-3" icon={faMapMarkerAlt} />
                     {marker.properties.address}
                   </p>
                   <a
-                    className="text-xl pb-2 text-gray-500 block hover:text-primary cursor-pointer"
+                    className="md:text-xl text-md pb-2 text-gray-500 block hover:text-primary cursor-pointer"
                     href={marker.properties.website}
                     target="_blank"
                   >
@@ -90,14 +90,6 @@ export function CowMarker({ marker }) {
                       icon={faExternalLinkAlt}
                     />
                     Öpnna hemsida
-                  </a>
-                  <a
-                    className="text-xl text-gray-500 hover:text-primary cursor-pointer"
-                    href={marker.properties.directions}
-                    target="_blank"
-                  >
-                    <FontAwesomeIcon className="mr-3" icon={faDirections} />
-                    Få vägvisning
                   </a>
                 </div>
               </div>

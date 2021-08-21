@@ -102,7 +102,7 @@ export function Map({ stores }) {
           </div>
         </div>
         <div className="lg:col-span-5 col-span-7 lg:order-2 order-1 lg:h-auto h-96">
-          <div className="h-full" ref={mapContainerRef} />;
+          <div className="h-full" ref={mapContainerRef} />
         </div>
       </div>
     </>

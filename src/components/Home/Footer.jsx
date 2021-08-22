@@ -14,7 +14,7 @@ export function Footer() {
             </Link>
             <p className="pt-4 text-lg lg:w-96 w-72">
               Cowfunding är ett initiativ av Volta Greentech, ett svenskt
-              startup företag som jobbar på att storskaligt reducera
+              startup-företag som jobbar på att storskaligt reducera
               metangasutsläpp från kor.
             </p>
             <p className="text-lg">
@@ -65,7 +65,7 @@ export function Footer() {
           </div>
 
           <div className="sm:w-2/5 flex flex-col space-y-2 pb-6">
-            <h1 className="text-2xl font-semibold pb-3">The moovement</h1>
+            <h1 className="text-2xl font-semibold pb-3">The mooovement</h1>
             <a
               className="w-28 opacity-60 hover:opacity-100 font-semibold text-lg"
               href="https://www.instagram.com/voltagreentech/"

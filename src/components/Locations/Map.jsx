@@ -6,6 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Navbar } from "../Home/Navbar";
 
 import logo from "../../images/cowfunded_yellow.png";
+import back from "../../images/back.png";
 import { Link } from "react-router-dom";
 
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -75,7 +76,10 @@ export function Map({ stores }) {
         <div className="lg:col-span-2 col-span-7 lg:order-1 order-2 bg-secondary">
           <div className="p-6 md:max-h-screen h-auto md:overflow-y-scroll overflow-y-hidden">
             <Link to="/">
-              <img className="h-20 mb-8 mt-4 lg:block hidden" src={logo} />
+              <img className="h-12 lg:block hidden" src={back} />
+            </Link>
+            <Link to="/">
+              <img className="h-20 mb-8 lg:block hidden" src={logo} />
             </Link>
 
             {stores

@@ -13,13 +13,13 @@ export function TheMooovement() {
       <div className="grid grid-cols-2 lg:w-10/12 w-11/12 mx-auto">
         <div className="lg:mt-32 mt-16 lg:col-span-1 col-span-2 lg:text-left text-center">
           <h1 className="lg:text-6xl text-4xl font-bold text-white ">
-            The moooovement
+            The mooovement
           </h1>
           <p className="lg:text-xl text-lg text-gray-300 mt-5">
             Vår vision är att det ska bli en branschstandard att minska
             metanutsläpp från kor. Det måste det bli för att vi ska kunna nå
             klimatmålen och vi har en lång väg att gå med många utmaningar. Följ
-            oss på sociala medier för att bli en del av vårt moooooooovement.
+            oss på sociala medier för att bli en del av vårt mooovement.
           </p>
           <div className="flex gap-6 mt-6 text-center lg:justify-start justify-center">
             <a

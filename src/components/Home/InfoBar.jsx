@@ -7,7 +7,7 @@ export function InfoBar() {
       <div className="py-3 flex max-w-lg mx-auto">
         <img src={milk} className="h-6 mr-2" />
         <p className="text-white font-medium">
-          Nu finns Cowfunding märkt COOP Mellanmjölk.
+          Nu finns Cowfunding-märkt COOP Mellanmjölk.
         </p>
         <Link
           to="/locations"

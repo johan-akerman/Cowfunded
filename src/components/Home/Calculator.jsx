@@ -110,7 +110,7 @@ export function Calculator() {
           ) : (
             <span>
               <FontAwesomeIcon icon={faCalculator} className="mr-2 text-md" />
-              Show calculations
+              Visa beräkningar
             </span>
           )}
         </button>

@@ -7,22 +7,22 @@ const texts = [
   {
     image: iconOne,
     title: "Vi odlar speciella röda alger",
-    text: "Algerna som har speciella bioaktiva ämnen odlas av Volta Greentech i Lysekil i deras landbaserade algfabrik. Sedan levereras dem ut till bondgårdar runt om i landet. ",
+    text: "Volta Greentech odlar röda alger i en landbaserad algfabrik i Lysekil. Algerna levereras sedan ut som fodertillskott till bondgårdar runt om i landet. ",
   },
   {
     image: iconTwo,
     title: "Vi matar korna med algerna",
-    text: "Algerna som har speciella bioaktiva ämnen odlas av Volta Greentech i Lysekil i deras landbaserade algfabrik. Sedan levereras dem ut till bondgårdar runt om i landet. ",
+    text: "Bönderna blandar in de torkade algerna som ett tillskott i kornas foder. ",
   },
   {
     image: iconThree,
     title: "Algerna minskar metanutsläpp",
-    text: "Algerna som har speciella bioaktiva ämnen odlas av Volta Greentech i Lysekil i deras landbaserade algfabrik. Sedan levereras dem ut till bondgårdar runt om i landet. ",
+    text: "Algerna innehåller naturliga bioaktiva ämnen som hjälper korna att bekämpa metanproducerande mikroorganismer så att de kan prutta och rapar mindre metangas.",
   },
   {
     image: logo,
     title: "Cowfunding, lite som grön el",
-    text: "Algerna som har speciella bioaktiva ämnen odlas av Volta Greentech i Lysekil i deras landbaserade algfabrik. Sedan levereras dem ut till bondgårdar runt om i landet. ",
+    text: "Med produkter märkta med Cowfunding vet man som konsument att man bidragit till att minska metanutsläpp lokalt från svenska gårdar. Certifikat används och det fungerar lite som “grön el”. ",
   },
 ];
 

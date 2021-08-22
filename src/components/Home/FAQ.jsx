@@ -30,7 +30,7 @@ export function FAQ({
         </div>
 
         <span className="pt-12 text-lg">
-          Got any other questions? Contact{" "}
+          Har du fler frågor? Kontakta{" "}
           <a
             className="border-b-2 border-black hover:border-primary"
             href="mailto:hello@voltagreentech.com"

@@ -13,7 +13,8 @@ export function ProductBanner() {
             för att minska kors pruttar och rapar. Coop har satt det
             revolutionerande målet att tillsammans med svenska gårdar reducera
             motsvarande 50% av metanutsläppen från Mellanmjölken.
-            <br /> <br />
+            <br />
+            <br />
             Implementeringen tillsammans med Volta Greentech och den första
             gården Tre Bönder har redan börjat där korna knaprar på ett
             tillskott alger för att prutta och rapa mindre metangas. Genom att

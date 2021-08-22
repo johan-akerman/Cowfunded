@@ -17,7 +17,7 @@ const texts = [
   {
     image: iconThree,
     title: "Algerna minskar metanutsläpp",
-    text: "Algerna innehåller naturliga bioaktiva ämnen som hjälper korna att bekämpa metanproducerande mikroorganismer så att de kan prutta och rapar mindre metangas.",
+    text: "Algerna innehåller naturliga bioaktiva ämnen som hjälper korna att bekämpa metanproducerande mikroorganismer så att de kan prutta och rapa mindre metangas.",
   },
   {
     image: logo,

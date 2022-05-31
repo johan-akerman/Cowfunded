@@ -1,5 +1,4 @@
 import { FAQCard } from "./FAQCard";
-import frame from "../../images/frame_yellow.png";
 
 export function FAQ({
   questionOne,
@@ -15,8 +14,7 @@ export function FAQ({
 }) {
   return (
     <div>
-      <img src={frame} />
-      <div className="bg-primary lg:pb-24 pb-12 text-center" id="faq">
+      <div className="bg-coral lg:pb-24 pb-12 text-center" id="faq">
         <h1 className="lg:pt-20 pt-16 lg:pb-12 pb-8 text-black  lg:text-6xl text-4xl font-bold">
           Vanliga frågor
         </h1>

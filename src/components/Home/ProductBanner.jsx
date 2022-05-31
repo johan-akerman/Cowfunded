@@ -1,32 +1,23 @@
-import milk from "../../images/milk_transparent.png";
+import meat from "../../images/meat.png";
 
 export function ProductBanner() {
   return (
-    <div className="bg-secondary  pb-0">
+    <div className="bg-white pb-0">
       <div className="grid grid-cols-2 lg:w-10/12 w-11/12 mx-auto">
-        <div className="mt-8 lg:col-span-1 col-span-2 lg:text-left text-center">
-          <h1 className="lg:text-6xl text-4xl font-bold text-white ">
-            Först ut är Coop med Coop Mellanmjölk!
+        <div className="lg:col-span-1 col-span-2 lg:text-left text-center mt-40">
+          <h1 className="lg:text-6xl text-4xl font-bold text-black mt-12">
+            Low on methane
           </h1>
-          <p className="lg:text-xl text-lg text-gray-300 mt-5">
-            Coop är bland de första i världen att implementera fodertillskott
-            för att minska kors pruttar och rapar. Coop har satt det
-            revolutionerande målet att tillsammans med svenska gårdar reducera
-            motsvarande 50% av metanutsläppen från Mellanmjölken.
-            <br />
-            <br />
-            Implementeringen tillsammans med Volta Greentech och den första
-            gården Tre Bönder har redan börjat där korna knaprar på ett
-            tillskott alger för att prutta och rapa mindre metangas. Genom att
-            handla på Coop och köpa Coop Mellanmjölk märkt Cowfunding kan du
-            konkret göra ett aktivt val att stötta klimatet. Följ resan till 50%
-            reduktion.
+          <p className="lg:text-xl text-lg text-black mt-5">
+            Nu lanserar vi LOME, kött som är 100% Gotländskt nötkött från kor
+            som släpper ut mindre metan. Hemligheten? Våra kor rapar mindre
+            metanutsläpp tack vare ett fodertillskott av alger. Genom att göra
+            ett aktivt val i butiken och välja LOME är du med och minskar
+            metanutsläpp lokalt i Sverige från kor på svenska gårdar.
           </p>
         </div>
 
-        <div className="text-white lg:ml-20  lg:w-full w-2/3 lg:mx-0 mx-auto lg:mt-0 mt-12 lg:col-span-1 col-span-2">
-          <img src={milk} />
-        </div>
+        <img src={meat} />
       </div>
     </div>
   );

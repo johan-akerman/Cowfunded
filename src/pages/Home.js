@@ -9,6 +9,7 @@ import { InfoBar } from "../components/Home/InfoBar";
 import { Footer } from "../components/Home/Footer";
 import { useEffect } from "react";
 import { TheMooovement } from "../components/Home/TheMooovement";
+import { Banner } from "../components/Home/Banner";
 
 function Home() {
   useEffect(() => {
@@ -19,25 +20,11 @@ function Home() {
       <InfoBar />
       <Navbar />
       <Jumbotron />
+      <HowItWorks />
 
       <Problem />
-      <HowItWorks />
-      <ProductBanner />
-      <Calculator />
-      <TheMooovement />
 
-      <FAQ
-        questionOne="Question goes here?"
-        answerOne="Answer goes here"
-        questionTwo="Question goes here?"
-        answerTwo="Answer goes here"
-        questionThree="Question goes here?"
-        answerThree="Answer goes here"
-        questionFour="Question goes here?"
-        answerFour="Answer goes here"
-        questionFive="Question goes here?"
-        answerFive="Answer goes here"
-      />
+      <Calculator />
 
       <Footer />
     </div>

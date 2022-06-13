@@ -2,10 +2,10 @@ import chart from "../../images/graph.png";
 
 export function Problem() {
   return (
-    <div className="bg-white lg:pb-12 pb-0" id="problem">
+    <div className="pt-16 pb-12">
       <div className="grid grid-cols-2 lg:w-10/12 w-11/12 mx-auto">
         <div className="mt-12 lg:col-span-1 col-span-2 lg:text-left text-center">
-          <h1 className="lg:text-6xl text-4xl font-bold text-black ">
+          <h1 className="lg:text-6xl text-5xl font-bold text-black ">
             Vad är problemet med kofisar?
           </h1>
           <p className="lg:text-xl text-lg text-black mt-5">
@@ -15,7 +15,7 @@ export function Problem() {
             utsläpp som alla världens flygplan står för.
           </p>
         </div>
-        <div className="text-white  lg:ml-20 ml-6 mx-0 lg:col-span-1 col-span-2">
+        <div className="text-white lg:ml-20 lg:mt-0 mt-16 lg:mx-0  mx-auto w-10/12 lg:col-span-1 col-span-2">
           <img src={chart} />
         </div>
       </div>

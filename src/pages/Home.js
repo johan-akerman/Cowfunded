@@ -17,15 +17,11 @@ function Home() {
   }, []);
   return (
     <div>
-      <InfoBar />
       <Navbar />
       <Jumbotron />
       <HowItWorks />
-
       <Problem />
-
       <Calculator />
-
       <Footer />
     </div>
   );

@@ -1,32 +1,36 @@
 import { Link } from "react-router-dom";
-import pin from "../../images/pin.png";
-import bgtest from "../../images/bgtest.png";
+import jumbotron from "../../images/jumbotron.png";
+import clouds from "../../images/clouds.png";
 
 export function Jumbotron() {
   return (
     <main className="bg-primary relative">
-      <div className="text-center lg:w-8/12 w-11/12 mx-auto lg:pt-20 pt-12 lg:pb-96 pb-16">
-        <h1 className="text-secondary lg:text-8xl text-3xl sm:mt-5 font-bold sm:mx-auto lg:mt-5 lg:mx-0">
-          Stötta klimatkampen, en fis eller rap i taget.
-        </h1>
-        <p className="mt-6 lg:text-xl text-lg text-secondary">
-          Kor fiser och rapar stora mängder metangas, vilket i sin tur påverkar
-          klimatet och höjer planetens temperatur. Med hjälp av ett nytt
-          naturligt fodertillskott baserade på alger kan nu svenska bönder
-          drastiskt minska deras kors pruttar och rapar. Genom att välja
-          produkter märkta Cowfunding kan du som konsument göra ett aktivt val i
-          butiken att minska metanutsläpp lokalt från svenska kor!
-        </p>
-        <div className="w-60 mx-auto lg:my-8 mt-8 md:mb-40 mb-24">
+      <div className="grid grid-cols-5 lg:w-10/12 w-11/12 mx-auto lg:pb-96 pb-40">
+        <div className="lg:col-span-2 col-span-5 lg:text-left text-center lg:mt-40 mt-20">
+          <h1 className="lg:text-6xl text-5xl font-bold text-black">
+            Ett gott sätt att minska utsläpp
+          </h1>
+          <p className="lg:text-xl text-lg text-black mt-5 mb-12">
+            Det finns cirka en miljard kor på planeten som genom att rapa och
+            prutta metangas står för över fyra procent av världens
+            växthusgasutsläpp. Dubbelt så mycket utsläpp som alla världens
+            flygplan tillsammans. Nu kan svenska bönder drastiskt minska sina
+            kors rapar och pruttar med hjälp av LOME – ditt nya kött.
+          </p>
+
           <Link
             to="/locations"
-            className="px-8 py-3 text-xl text-primary font-semibold rounded-xl flex items-center bg-secondary"
+            className="px-8 py-3 text-xl w-48 text-center text-primary font-semibold rounded-xl bg-secondary"
           >
-            <img src={pin} className="h-6 mr-3" /> Hitta produkter
+            Hitta butiker
           </Link>
         </div>
+        <div className="lg:col-span-3 col-span-5 ">
+          <img src={jumbotron} />
+        </div>
       </div>
-      <img src={bgtest} className="absolute right-0 -bottom-2" />
+
+      <img src={clouds} className="absolute right-0 -bottom-2 " />
     </main>
   );
 }

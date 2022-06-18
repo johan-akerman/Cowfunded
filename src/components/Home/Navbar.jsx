@@ -13,28 +13,28 @@ export function Navbar() {
         <div className="mt-5 flex">
           <a
             className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
-            href="#om"
+            href="#om-lome"
           >
             Om LOME
           </a>
 
           <a
             className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
-            href="#calculator"
+            href="#om-kofisar"
           >
             Om kofisar
           </a>
 
           <a
             className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
-            href="#calculator"
+            href="#impact-kalkylatorn"
           >
             Impact kalkylatorn
           </a>
 
           <Link
             className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
-            to="/locations"
+            to="/butiker"
           >
             Hitta butiker
           </Link>

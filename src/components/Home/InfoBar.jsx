@@ -6,7 +6,7 @@ export function InfoBar() {
       <div className="py-3 px-5 flex justify-center md:text-lg text-sm text-black">
         <p className=" font-medium">Nu har vi släppt LOME kött! </p>
         <Link
-          to="/locations"
+          to="/butiker"
           className="ml-2  font-medium border-b-2 border-primary hover:text-primary"
         >
           Hitta butiker

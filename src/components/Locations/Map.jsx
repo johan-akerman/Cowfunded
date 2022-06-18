@@ -1,8 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import ReactDOM from "react-dom";
+import logo from "../../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Navbar } from "../Home/Navbar";
 import { Link } from "react-router-dom";
 
@@ -66,7 +67,17 @@ export function Map({ stores }) {
   return (
     <>
       <div className="lg:hidden block">
-        <Navbar />
+        <div className="bg-primary pt-2">
+          <div className="flex justify-between py-4 w-11/12 mx-auto">
+            <Link className="flex" to="/">
+              <img className="lg:h-16 h-14 lg:mt-0 mt-2" src={logo} />
+            </Link>
+
+            <Link to="/">
+              <FontAwesomeIcon icon={faTimes} className="text-4xl mr-3 mt-4" />
+            </Link>
+          </div>
+        </div>
       </div>
       <div className="grid grid-cols-7 text-black h-screen">
         <div className="lg:col-span-2 col-span-7 lg:order-1 order-2 bg-primary">
@@ -87,7 +98,7 @@ export function Map({ stores }) {
                   return (
                     <div
                       onClick={() => flyToStore(store)}
-                      className="border-b-2 border-primaryLight flex justify-between py-3 text-black cursor-pointer"
+                      className="border-b-2 border-primaryLight hover:border-white flex justify-between py-3 text-black cursor-pointer"
                     >
                       <div>
                         <h1 className="font-semibold text-xl">

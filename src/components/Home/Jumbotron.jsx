@@ -19,7 +19,7 @@ export function Jumbotron() {
           </p>
 
           <Link
-            to="/locations"
+            to="/butiker"
             className="px-8 py-3 text-xl w-48 text-center text-primary font-semibold rounded-xl bg-secondary"
           >
             Hitta butiker

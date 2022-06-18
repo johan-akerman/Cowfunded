@@ -13,9 +13,9 @@ export function Calculator() {
   const [showCalculations, setShowCalculations] = useState(false);
 
   return (
-    <main className="bg-primary relative">
+    <main className="bg-primary relative" id="impact-kalkylatorn">
       <div
-        className="bg-primary  lg:pt-32 pb-64 pt-16 lg:w-auto w-11/12 mx-auto"
+        className="bg-primary  lg:pt-32 lg:pb-64 pb-16 pt-16 lg:w-auto w-11/12 mx-auto"
         id="calculator"
       >
         <div>
@@ -112,7 +112,7 @@ export function Calculator() {
             {showCalculations ? (
               <span>
                 <FontAwesomeIcon icon={faTimes} className="mr-2 text-md" />
-                Hide calculations
+                Göm beräkningar{" "}
               </span>
             ) : (
               <span>

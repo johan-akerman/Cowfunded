@@ -24,7 +24,7 @@ export function HowItWorks() {
   return (
     <div
       className="lg:pt-24 bg-white pt-16 lg:pb-32 pb-12 w-10/12 mx-auto"
-      id="solution"
+      id="om-lome"
     >
       <h1 className="text-center lg:text-6xl text-5xl font-bold text-black ">
         Vad är hemligheten med LOME?

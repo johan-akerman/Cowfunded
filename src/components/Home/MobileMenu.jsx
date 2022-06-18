@@ -34,33 +34,33 @@ export function MobileMenu() {
               <Popover.Panel className="lg:hidden block absolute top-16 z-10 w-64  mt-2 transform -translate-x-56  sm:px-0 lg:max-w-3xl">
                 <div className="overflow-hidden rounded-lg shadow-2xl">
                   <div className="relative bg-white p-3">
-                    <Link
+                    <a
                       onClick={() => buttonRef.current?.click()}
-                      to="#om-lome"
+                      href="#om-lome"
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
                       Om LOME
-                    </Link>
+                    </a>
 
-                    <Link
+                    <a
                       onClick={() => buttonRef.current?.click()}
-                      to="#kofisar"
+                      href="#om-kofisar"
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
                       Om kofisar
-                    </Link>
+                    </a>
 
-                    <Link
+                    <a
                       onClick={() => buttonRef.current?.click()}
-                      to="#impact"
+                      href="#impact-kalkylatorn"
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
                       Impact kalkylatorn
-                    </Link>
+                    </a>
 
                     <Link
                       onClick={() => buttonRef.current?.click()}
-                      to="/locations"
+                      to="/butiker"
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
                       Hitta butiker

@@ -10,7 +10,7 @@ export default function App() {
           <Home />
         </Route>
 
-        <Route path="/locations">
+        <Route path="/butiker">
           <Locations />
         </Route>
       </Switch>

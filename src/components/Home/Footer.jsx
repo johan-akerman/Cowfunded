@@ -16,9 +16,16 @@ export function Footer() {
         <div className="md:py-16 py-16 px-12 mx-auto md:w-1/3 text-center">
           <img className="md:h-20 h-16 block mx-auto" src={logo} />
 
-          <p className="pt-4 text-lg text-center">
+          <p className="pt-4 pb-1 text-lg text-center">
             LOME är ett samarbete mellan Coop, Volta Greentech och Protos AB.
           </p>
+
+          <a
+            className="hover:text-primary text-lg cursor-pointer border-b-2 font-medium border-primary"
+            href="mailto:hello@voltagreentech.com"
+          >
+            hello@voltagreentech.com
+          </a>
           <div className="text-4xl flex gap-3 justify-center mt-6 ">
             <a
               href=""

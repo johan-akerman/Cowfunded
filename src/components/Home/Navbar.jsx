@@ -32,12 +32,12 @@ export function Navbar() {
             Impact kalkylatorn
           </a>
 
-          <a
+          <Link
             className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
-            href="#calculator"
+            to="/locations"
           >
             Hitta butiker
-          </a>
+          </Link>
 
           <MobileMenu />
         </div>

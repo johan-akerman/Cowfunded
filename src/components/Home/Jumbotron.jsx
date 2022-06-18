@@ -6,7 +6,7 @@ export function Jumbotron() {
   return (
     <main className="bg-primary relative">
       <div className="grid grid-cols-5 lg:w-10/12 w-11/12 mx-auto lg:pb-96 pb-40">
-        <div className="lg:col-span-2 col-span-5 lg:text-left text-center lg:mt-40 mt-20">
+        <div className="lg:col-span-2 col-span-5 lg:text-left text-center lg:mt-40 mt-20 mb-12">
           <h1 className="lg:text-6xl text-5xl font-bold text-black">
             Ett gott sätt att minska utsläpp
           </h1>

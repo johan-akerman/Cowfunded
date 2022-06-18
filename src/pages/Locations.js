@@ -1,6 +1,5 @@
-import React, { useRef, useEffect, useState } from "react";
+import React from "react";
 import { Map } from "../components/Locations/Map.jsx";
-import { Sidebar } from "../components/Locations/Sidebar.jsx";
 
 var stores = {
   type: "FeatureCollection",

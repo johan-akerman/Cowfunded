@@ -2,11 +2,8 @@ import React, { useRef, useEffect } from "react";
 import mapboxgl from "mapbox-gl";
 import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { Navbar } from "../Home/Navbar";
-
-import logo from "../../images/cowfunded_yellow.png";
-import back from "../../images/back.png";
 import { Link } from "react-router-dom";
 
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -22,7 +19,7 @@ export function Map({ stores }) {
   useEffect(() => {
     map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/dark-v10",
+      style: "mapbox://styles/mapbox/light-v10",
       center: [18.065, 59.33252],
       zoom: 13,
       scrollZoom: false,
@@ -57,7 +54,6 @@ export function Map({ stores }) {
 
   function addMarkers() {
     stores.features.forEach((marker) => {
-      console.log(marker);
       var el = document.createElement("div");
       ReactDOM.render(<CowMarker marker={marker} />, el);
 
@@ -73,32 +69,32 @@ export function Map({ stores }) {
         <Navbar />
       </div>
       <div className="grid grid-cols-7 text-black h-screen">
-        <div className="lg:col-span-2 col-span-7 lg:order-1 order-2 bg-secondary">
+        <div className="lg:col-span-2 col-span-7 lg:order-1 order-2 bg-primary">
           <div className="p-6 md:max-h-screen h-auto md:overflow-y-scroll overflow-y-hidden">
             <Link to="/">
-              <img className="h-12 lg:block hidden" src={back} />
+              <FontAwesomeIcon
+                className="mt-2 text-4xl lg:block hidden"
+                icon={faArrowLeft}
+              />
             </Link>
-            <Link to="/">
-              <img className="h-20 mb-8 lg:block hidden" src={logo} />
-            </Link>
+
+            <h1 className="md:text-5xl text-4xl font-semibold text-black mt-12 mb-8">
+              Hitta LOME kött i butiker nära dig!
+            </h1>
 
             {stores
               ? stores.features.map((store) => {
                   return (
                     <div
                       onClick={() => flyToStore(store)}
-                      className="border-b-2 border-gray-700 flex justify-between py-3 text-white hover:text-primary hover:border-primary cursor-pointer"
+                      className="border-b-2 border-primaryLight flex justify-between py-3 text-black cursor-pointer"
                     >
                       <div>
                         <h1 className="font-semibold text-xl">
                           {store.properties.title}
                         </h1>
-                        <p className="">{store.properties.address}</p>
+                        <p className="opacity-40">{store.properties.address}</p>
                       </div>
-                      <FontAwesomeIcon
-                        className="mt-2 text-4xl"
-                        icon={faArrowRight}
-                      />
                     </div>
                   );
                 })

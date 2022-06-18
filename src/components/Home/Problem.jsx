@@ -2,7 +2,7 @@ import chart from "../../images/graph.png";
 
 export function Problem() {
   return (
-    <div className="pt-16 pb-12">
+    <div className="md:mb-32 mb-16">
       <div className="grid grid-cols-2 lg:w-10/12 w-11/12 mx-auto">
         <div className="mt-12 lg:col-span-1 col-span-2 lg:text-left text-center">
           <h1 className="lg:text-6xl text-5xl font-bold text-black ">

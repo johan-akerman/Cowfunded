@@ -9,7 +9,7 @@ export function InfoBar() {
           to="/locations"
           className="ml-2  font-medium border-b-2 border-primary hover:text-primary"
         >
-          Hitta produkter
+          Hitta butiker
         </Link>
       </div>
     </div>

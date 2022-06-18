@@ -128,7 +128,10 @@ export function Calculator() {
             </div>
           ) : null}
         </div>
-        <img src={reef} className="absolute -bottom-10 w-screen" />
+        <img
+          src={reef}
+          className="absolute -bottom-10 w-screen lg:block hidden"
+        />
       </div>
     </main>
   );

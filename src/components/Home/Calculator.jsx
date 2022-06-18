@@ -19,10 +19,10 @@ export function Calculator() {
         id="calculator"
       >
         <div>
-          <h1 className="max-w-2xl mx-auto lg:text-6xl text-4xl font-bold text-center text-white ">
+          <h1 className="max-w-2xl mx-auto lg:text-6xl text-5xl font-bold text-center text-black ">
             Räkna på hur du kan minska utsläpp
           </h1>
-          <p className="max-w-2xl lg:text-xl text-lg text-center text-white mx-auto mt-5">
+          <p className="max-w-2xl lg:text-xl text-lg text-center text-black mx-auto mt-5">
             När du väljer produkter märkta med Cowfunding möjliggör du en
             ljusare framtid. Bli en del av förändringen. Låt oss hjälpa till att
             räkna på hur mycket du kan påverka!
@@ -31,10 +31,15 @@ export function Calculator() {
             <Slider
               styles={{
                 active: {
-                  backgroundColor: "#E56F7A",
+                  backgroundColor: "#fff",
                 },
                 track: {
-                  backgroundColor: "#383838",
+                  backgroundColor: "#edfffb",
+                },
+                thumb: {
+                  width: 12,
+                  height: 12,
+                  backgroundColor: "#000",
                 },
               }}
               axis="x"
@@ -45,7 +50,7 @@ export function Calculator() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-4 grid-cols-1 grid-flow-row lg:gap-3 gap-6 lg:mt-20  mt-16 text-white lg:w-10/12 w-11/12 mx-auto">
+        <div className="grid lg:grid-cols-4 grid-cols-1 grid-flow-row lg:gap-3 gap-6 lg:mt-36  mt-16 text-black lg:w-10/12 w-11/12 mx-auto">
           <div className="flex lg:border-none border-b-2 border-gray-500 pb-3">
             <img
               src={milk}
@@ -55,7 +60,7 @@ export function Calculator() {
               <h1 className="lg:text-6xl text-4xl font-bold">
                 {packagesOfMilk}
               </h1>
-              <p className="lg:text-2xl text-xl">Mjölkpaket</p>
+              <p className="lg:text-2xl text-xl">kg kött</p>
             </span>
           </div>
 
@@ -68,7 +73,7 @@ export function Calculator() {
               <h1 className="lg:text-6xl text-4xl font-bold">
                 {packagesOfMilk * 20}
               </h1>
-              <p className="lg:text-2xl text-xl">Kofisar</p>
+              <p className="lg:text-2xl text-xl">kg metan</p>
             </span>
           </div>
 
@@ -81,7 +86,7 @@ export function Calculator() {
               <h1 className="lg:text-6xl text-4xl font-bold">
                 {packagesOfMilk * 12}
               </h1>
-              <p className="lg:text-2xl text-xl">KG metan</p>
+              <p className="lg:text-2xl text-xl">CO2e</p>
             </span>
           </div>
 
@@ -94,14 +99,14 @@ export function Calculator() {
               <h1 className="lg:text-6xl text-4xl font-bold">
                 {packagesOfMilk * 4}
               </h1>
-              <p className="lg:text-2xl text-xl">Km i flygplan</p>
+              <p className="lg:text-2xl text-xl">km i flygplan</p>
             </span>
           </div>
         </div>
 
-        <div className="mt-16 mx-auto w-full text-center">
+        <div className="mt-16 mx-auto w-full text-center opacity-30 lg:mb-32 mb-0">
           <button
-            className="text-xl font-light text-white font-semibold"
+            className="text-xl text-black"
             onClick={() => setShowCalculations(!showCalculations)}
           >
             {showCalculations ? (
@@ -118,7 +123,7 @@ export function Calculator() {
           </button>
 
           {showCalculations ? (
-            <div className="mt-4 text-white text-lg ">
+            <div className="mt-4 text-black text-lg ">
               Lägg in formel och källor här
             </div>
           ) : null}

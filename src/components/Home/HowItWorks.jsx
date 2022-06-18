@@ -1,6 +1,7 @@
 import iconOne from "../../images/iconOne.png";
 import iconTwo from "../../images/iconTwo.png";
 import iconThree from "../../images/iconThree.png";
+import logo from "../../images/logo.png";
 
 const texts = [
   {
@@ -26,7 +27,7 @@ export function HowItWorks() {
       className="lg:pt-24 bg-white pt-16 lg:pb-32 pb-12 w-10/12 mx-auto"
       id="solution"
     >
-      <h1 className="text-center lg:text-6xl text-5xl font-bold text-black ">
+      <h1 className="text-center lg:text-6xl text-4xl font-bold text-black ">
         Vad är hemligheten med LOME?
       </h1>
       <p className="text-center lg:text-xl text-lg text-black mx-auto mt-5 lg:mb-0 mb-16 max-w-3xl">

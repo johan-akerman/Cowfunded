@@ -36,26 +36,18 @@ export function MobileMenu() {
                   <div className="relative bg-white p-3">
                     <Link
                       onClick={() => buttonRef.current?.click()}
-                      to="#om-lome"
+                      to="/"
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
-                      Om LOME
+                      Hem
                     </Link>
 
                     <Link
                       onClick={() => buttonRef.current?.click()}
-                      to="#kofisar"
+                      to="/locations"
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
-                      Om kofisar
-                    </Link>
-
-                    <Link
-                      onClick={() => buttonRef.current?.click()}
-                      to="#impact"
-                      className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
-                    >
-                      Impact kalkylatorn
+                      Hitta produkter
                     </Link>
                   </div>
                 </div>

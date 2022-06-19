@@ -17,7 +17,7 @@ export function Footer() {
           <img className="md:h-20 h-16 block mx-auto" src={logo} />
 
           <p className="pt-4 pb-1 text-lg text-center">
-            LOME är ett samarbete mellan Coop, Volta Greentech och Protos AB.
+            LOME är ett samarbete mellan Coop, Volta Greentech och PROTOS.
           </p>
 
           <a

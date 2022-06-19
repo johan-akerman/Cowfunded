@@ -1,6 +1,6 @@
 import iconThree from "../../images/iconThree.png";
 import milk from "../../images/milk.png";
-import ch4 from "../../images/ch4.png";
+import ch4 from "../../images/fart.png";
 import airplane from "../../images/airplane.png";
 import Slider from "react-input-slider";
 import { useState } from "react";

@@ -1,30 +1,32 @@
 import { FAQCard } from "./FAQCard";
 
-export function FAQ({
-  questionOne,
-  answerOne,
-  questionTwo,
-  answerTwo,
-  questionThree,
-  answerThree,
-  questionFour,
-  answerFour,
-  questionFive,
-  answerFive,
-}) {
+export function FAQ() {
+  const questions = [
+    {
+      q: "question goes here",
+      a: "answer goes here",
+    },
+    {
+      q: "question goes here",
+      a: "answer goes here",
+    },
+    {
+      q: "question goes here",
+      a: "answer goes here",
+    },
+  ];
+
   return (
     <div>
-      <div className="bg-coral lg:pb-24 pb-12 text-center" id="faq">
-        <h1 className="lg:pt-20 pt-16 lg:pb-12 pb-8 text-black  lg:text-6xl text-4xl font-bold">
+      <div className="bg-coral lg:pb-32 pb-12 text-center" id="faq">
+        <h1 className="pt-16 lg:pb-12 pb-8 text-black  lg:text-6xl text-4xl font-bold">
           Vanliga frågor
         </h1>
 
         <div className="lg:w-8/12 w-11/12  mx-auto pb-12">
-          <FAQCard question={questionOne} answer={answerOne} />
-          <FAQCard question={questionTwo} answer={answerTwo} />
-          <FAQCard question={questionThree} answer={answerThree} />
-          <FAQCard question={questionFour} answer={answerFour} />
-          <FAQCard question={questionFive} answer={answerFive} />
+          {questions?.map((question) => {
+            return <FAQCard question={question.q} answer={question.a} />;
+          })}
         </div>
 
         <span className="pt-12 text-lg">

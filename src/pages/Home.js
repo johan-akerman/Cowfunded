@@ -6,6 +6,7 @@ import { Calculator } from "../components/Home/Calculator";
 import { InfoBar } from "../components/Home/InfoBar";
 import { Footer } from "../components/Home/Footer";
 import { useEffect } from "react";
+import { FAQ } from "../components/Home/FAQ";
 
 function Home() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function Home() {
       <HowItWorks />
       <Problem />
       <Calculator />
+      <FAQ />
       <Footer />
     </div>
   );

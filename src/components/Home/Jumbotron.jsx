@@ -26,7 +26,7 @@ export function Jumbotron() {
             Hitta butiker
           </Link>
         </div>
-        <div className="lg:col-span-3 col-span-5 ">
+        <div className="lg:col-span-3 col-span-5 mt-12">
           <img src={jumbotron} />
         </div>
       </div>

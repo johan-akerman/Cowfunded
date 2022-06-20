@@ -22,7 +22,7 @@ export function Map({ stores }) {
       container: mapContainerRef.current,
       style: "mapbox://styles/mapbox/light-v10",
       center: [18.065, 59.33252],
-      zoom: 13,
+      zoom: 10,
       scrollZoom: false,
     });
 

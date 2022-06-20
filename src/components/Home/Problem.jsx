@@ -20,7 +20,7 @@ export function Problem() {
             av metangas kommer från idisslande boskapsdjur (SCB 2020]
           </p>
         </div>
-        <div className="text-white lg:ml-20 lg:-mt-8 mt-12 lg:mx-0  mx-auto w-10/12 lg:col-span-1 col-span-2">
+        <div className="text-white lg:ml-20 mt-12 lg:mx-0  mx-auto w-10/12 lg:col-span-1 col-span-2">
           <img src={chart} />
         </div>
       </div>

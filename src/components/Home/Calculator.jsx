@@ -22,8 +22,8 @@ export function Calculator() {
             Räkna på hur du kan minska utsläpp
           </h1>
           <p className="max-w-2xl lg:text-xl text-lg text-center text-black mx-auto mt-5">
-            Så här mycket kan vi tillsammans påverka genom att mata kor alger.
-            Låt oss hjälpa till att räkna på hur mycket du kan påverka!
+            Så här mycket kan vi tillsammans påverka genom att mata kor med
+            alger. Låt oss hjälpa till att räkna på hur mycket du kan påverka!
           </p>
           <div className="mt-6 w-48 mx-auto">
             <Slider

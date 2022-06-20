@@ -15,12 +15,12 @@ export function FAQ() {
       a: "När kor äter startar en fodersmältningsprocess i kons första mage (“vommen”). Denna process ger upphov till att metan skapas. Metan är en cirka 84 gånger starkare klimatgas över 20 år än koldioxid. Samtidigt bryts den ner snabbare i atmosfären, vilket gör att minskade utsläpp av metan på kort tid kan få positiva effekter för klimatet. Fram till nyligen fanns få globala och nationella initiativ för att minska metanutsläppen - men i november 2021 skev över 100 länder (inklusive Sverige) på The Global Methane Pledge (LÄNK: https://www.globalmethanepledge.org/). Dessa länder har förbundit sig att minska metanutsläpp med minst 30% senast 2030. Minskade utsläpp av metan inget som löser alla klimatproblem - men det bidrar till att samhället får mer tid att ställa om övriga utsläpp!",
     },
     {
-      q: "Vad hände under LOME™-Piloten?",
+      q: "Vad hände under LOME-Piloten?",
       a: "Volta Greentech, PROTOS och Coop genomförde en pilot att mata 10 tjurar på prisbelönta Ejmunds Gård på Gotland med ett ny typ av metanreducerande fodertillskott, baserat på rödalger odlade i Volta Greentechs algfabrik i Lysekil på västkusten. Under projektet som varade i cirka 3 månader kunde en metanreduktion hos tjurarna uppnås på cirka 92%. Genomsnittet under hela pilotperioden låg på ca 80%. Dessutom testades och implementerades flera nya sätt att utfodra korna alger på ett mer effektivt sätt - resultat som kommer att implementeras på nya gårdar i framtiden. Under piloten har vi visat att det är möjligt att uppnå 30% metanreduktion per kg kött när korna utfodras med rödalger under ett antal månader under vinterhalvåret. Nötköttet kan alltså uppnå klimatmålen för metan. I denna första piloten hade en längre tid än tre månader med utfodring av alger behövts för att nå en total metanreduktion på över 30%. Men det är en bra start och bra första projekt! Läs mer om studien och dess resultat i vår Klimatrapport för LOME-Piloten, som publiceras den 30 juni på www.lomemeat.se. ",
     },
     {
       q: "Hur mådde korna?",
-      a: "Nötdjuren i piloten följde en normal tillväxtkurva, vilket är en central utgångspunkt när man mäter djurhälsa, samt åt och betedde sig normalt.",
+      a: "Nötdjuren i piloten följde en normal tillväxtkurva, vilket är en central utgångspunkt när man tittar på djurhälsa, samt åt och betedde sig normalt.",
     },
     {
       q: "Hur stor skillnad kan jag göra?",

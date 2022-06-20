@@ -54,10 +54,10 @@ export function HowItWorks() {
         })}
       </div>
 
-      <div className="mx-auto w-96 text-center">
+      <div className="mx-auto text-center w-11/12">
         <a className="cursor-not-allowed px-8 py-3 text-xl text-center text-white font-semibold rounded-xl bg-coral opacity-50">
           <FontAwesomeIcon icon={faLock} className="text-md mr-3" />
-          Läs vår klimatrapport för LOME
+          Läs vår klimatrapport
         </a>
 
         <p className="text-sm mt-8">

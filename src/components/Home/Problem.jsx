@@ -14,10 +14,10 @@ export function Problem() {
             öppna landskap, arbetstillfällen, och svensk självförsörjning av
             livsmedel. Men, idisslare, primärt kor, släpper ut metangas som står
             för cirka 6% av Sveriges och världens växthusgasutsläpp (SCB 2020,
-            Gerbet et al. (2013). I november 2021 skrev över 100 länder
+            Gerbet et al, 2013). I november 2021 skrev över 100 länder
             (inklusive Sverige) på det nya klimatmålet “Methane Pledge” att
             reducera 30% av metanutsläppen till 2030. Ca 70% av Sveriges utsläpp
-            av metangas kommer från idisslande boskapsdjur (SCB 2020]
+            av metangas kommer från idisslande boskapsdjur (SCB 2020).
           </p>
         </div>
         <div className="text-white lg:ml-20 mt-12 lg:mx-0  mx-auto w-10/12 lg:col-span-1 col-span-2">

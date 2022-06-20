@@ -47,7 +47,7 @@ export function MobileMenu() {
                       href="#om-kofisar"
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
-                      Om kofisar
+                      Kor & klimat
                     </a>
 
                     <a
@@ -56,6 +56,14 @@ export function MobileMenu() {
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
                       Impact kalkylatorn
+                    </a>
+
+                    <a
+                      onClick={() => buttonRef.current?.click()}
+                      href="#faq"
+                      className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
+                    >
+                      FAQ
                     </a>
 
                     <Link

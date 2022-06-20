@@ -11,11 +11,12 @@ export function Jumbotron() {
             Ett gott sätt att minska utsläpp
           </h1>
           <p className="lg:text-xl text-lg text-black mt-5 mb-12">
-            Det finns cirka en miljard kor på planeten som genom att rapa och
-            prutta metangas står för över fyra procent av världens
-            växthusgasutsläpp. Dubbelt så mycket utsläpp som alla världens
-            flygplan tillsammans. Nu kan svenska bönder drastiskt minska sina
-            kors rapar och pruttar med hjälp av LOME – ditt nya kött.
+            Det finns över en miljard kor på vår planet. Som genom att idissla,
+            andas och rapa släpper ut metangas som påverkar klimatet. På så sätt
+            är korna en del av klimatförändringen. Nu finns LOME – ett helt nytt
+            kött från kor som utfodrats med startup-bolaget Volta Greentechs
+            naturliga fodertillskott av röda alger. Algerna är odlade i Lysekil
+            och minskar kors dagliga utsläpp av metangaser med upp till 92%.
           </p>
 
           <Link

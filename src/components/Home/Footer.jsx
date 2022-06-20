@@ -16,8 +16,32 @@ export function Footer() {
         <div className="md:py-16 py-16 px-12 mx-auto md:w-1/3 text-center">
           <img className="md:h-20 h-16 block mx-auto" src={logo} />
 
-          <p className="pt-4 pb-1 text-lg text-center">
-            LOME är ett samarbete mellan Coop, Volta Greentech och PROTOS.
+          <p className="pt-4 pb-6 text-lg text-center">
+            LOME är ett samarbete mellan{" "}
+            <a
+              className="hover:text-primary text-lg cursor-pointer border-b-2 font-medium border-black"
+              target="_blank"
+              href="https://www.voltagreentech.com/"
+            >
+              Volta Greentech
+            </a>
+            ,{" "}
+            <a
+              className="hover:text-primary text-lg cursor-pointer border-b-2 font-medium border-black"
+              target="_blank"
+              href="https://www.coop.se/"
+            >
+              Coop
+            </a>{" "}
+            och{" "}
+            <a
+              className="hover:text-primary text-lg cursor-pointer border-b-2 font-medium border-black"
+              target="_blank"
+              href="https://www.protos.se/"
+            >
+              PROTOS
+            </a>
+            .
           </p>
 
           <a
@@ -26,7 +50,7 @@ export function Footer() {
           >
             hello@voltagreentech.com
           </a>
-          <div className="text-4xl flex gap-3 justify-center mt-6 ">
+          {/* <div className="text-4xl flex gap-3 justify-center mt-6 ">
             <a
               href=""
               target="_blank"
@@ -50,7 +74,7 @@ export function Footer() {
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

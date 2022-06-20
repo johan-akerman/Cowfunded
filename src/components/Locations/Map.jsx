@@ -90,8 +90,15 @@ export function Map({ stores }) {
             </Link>
 
             <h1 className="md:text-5xl text-4xl font-semibold text-black mt-12 mb-8">
-              Hitta LOME kött i butiker nära dig!
+              Hitta LOME i butiker nära dig!
             </h1>
+
+            <p className="text-lg mb-8">
+              LOME finns från 30 juni under begränsad tid på utvalda
+              Coop-butiker i Stockholm och på Gotland. Du hittar LOME™ Nötkött
+              (500g) i hyllan, och utvalda delar såsom oxfile, entrecote och
+              ryggbiff i delikatessdisken.
+            </p>
 
             {stores
               ? stores.features.map((store) => {

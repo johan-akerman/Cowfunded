@@ -1,22 +1,24 @@
 import iconOne from "../../images/iconOne.png";
 import iconTwo from "../../images/iconTwo.png";
 import iconThree from "../../images/iconThree.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLock } from "@fortawesome/free-solid-svg-icons";
 
 const texts = [
   {
     image: iconOne,
-    title: "Vi odlar speciella röda alger",
-    text: "Volta Greentech odlar röda alger i en landbaserad algfabrik i Lysekil. Algerna levereras sedan ut som fodertillskott till bondgårdar runt om i landet.",
+    title: "Speciella röda alger",
+    text: "Algerna används som ett 100% naturligt fodertillskott avsett för nötkreatur. Fodertillskottet består av den röda makroalgen Asparagopsis som odlas på land i ett tankbaserat system i Lysekil och sedan frystorkas.",
   },
   {
     image: iconTwo,
-    title: "Vi matar korna med algerna",
-    text: "Bönderna blandar in de torkade algerna som ett tillskott i kornas foder. ",
+    title: "Korna matas med algerna",
+    text: "Under inomhussäsongen blandas de torkade algerna in som ett tillskott i kornas grov- eller kraftfoder. Korna på pilotgården Ejmunds gård får en kost som består nästan enbart av ensilage, blandat med lite morötter och potatis. Cirka 0.6% av fodret är alger.",
   },
   {
     image: iconThree,
     title: "Algerna minskar metanutsläpp",
-    text: "Genom vårt naturliga fodertillskott kan vi hjälpa Sveriges bönder att jobba mer klimatsmart.",
+    text: "Genom att förse lantbrukare med fodertillskott av alger, kan vi tillsammans minska metanutsläpp och jobba mer klimatsmart.",
   },
 ];
 
@@ -30,12 +32,13 @@ export function HowItWorks() {
         Vad är hemligheten med LOME?
       </h1>
       <p className="text-center lg:text-xl text-lg text-black mx-auto mt-5 lg:mb-0 mb-16 max-w-3xl">
-        LOME innehåller ett nytt naturligt fodertillskott baserat på alger med
-        naturliga bioaktiva ämnen. Tillskottet hjälper korna att stå emot
-        metanproducerande mikroorganismer.
+        Volta Greentech har utvecklat ett nytt naturligt fodertillskott baserat
+        på alger med naturliga bioaktiva ämnen. Tillskottet hjälper korna att
+        stå emot metanproducerande mikroorganismer. Och svenska bönder kan
+        drastiskt minska sina kors utsläpp av metangaser.
       </p>
 
-      <div className="grid lg:grid-cols-3 grid-cols-1 gap-14 lg:pt-24 lg:text-left text-center ">
+      <div className="lg:mb-32 mb-20 grid lg:grid-cols-3 grid-cols-1 gap-14 lg:pt-24 lg:text-left text-center ">
         {texts.map((item) => {
           return (
             <div className="text-center">
@@ -49,6 +52,18 @@ export function HowItWorks() {
             </div>
           );
         })}
+      </div>
+
+      <div className="mx-auto w-96 text-center">
+        <a className="cursor-not-allowed px-8 py-3 text-xl text-center text-white font-semibold rounded-xl bg-coral opacity-50">
+          <FontAwesomeIcon icon={faLock} className="text-md mr-3" />
+          Läs vår klimatrapport för LOME
+        </a>
+
+        <p className="text-sm mt-8">
+          Klimatrapporten publiceras i anslutning till släpp av LOME i butik 30
+          juni.
+        </p>
       </div>
     </div>
   );

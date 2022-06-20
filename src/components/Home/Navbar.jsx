@@ -22,7 +22,7 @@ export function Navbar() {
             className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
             href="#om-kofisar"
           >
-            Om kofisar
+            Kor & klimat
           </a>
 
           <a
@@ -30,6 +30,13 @@ export function Navbar() {
             href="#impact-kalkylatorn"
           >
             Impact kalkylatorn
+          </a>
+
+          <a
+            className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
+            href="#faq"
+          >
+            FAQ
           </a>
 
           <Link

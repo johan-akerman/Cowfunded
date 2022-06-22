@@ -28,7 +28,7 @@ export function FAQ() {
     },
     {
       q: "Hur hittar jag produkterna?",
-      a: "De första produkterna släpps den 30 juni i utvalda Coop-butiker i Stockholmsområdet och på Gotland, och säljs fram till cirka 10 juli - eller så snart de tagit slut. Dessa säljs som LOME Nötkött 500g (riktpris 59.90 SEK) samt som styckdetaljer över disk. Hitta din närmaste på www.lomefoods.com/butiker! Fler produkter beräknas släppas när vi matat fler kor - preliminärt i början av 2023!",
+      a: "De första produkterna släpps den 30 juni i utvalda Coop-butiker i Stockholmsområdet och på Gotland, och säljs fram till cirka 10 juli - eller så snart de tagit slut. Dessa säljs som LOME Nötkött 500g (riktpris 59.95 SEK) samt som styckdetaljer över disk hos Stora Coop i Visby. Hitta din närmaste på www.lomefoods.com/butiker! Fler produkter beräknas släppas när vi matat fler kor - preliminärt i början av 2023!",
     },
   ];
 

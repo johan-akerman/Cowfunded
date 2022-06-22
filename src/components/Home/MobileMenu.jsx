@@ -55,7 +55,7 @@ export function MobileMenu() {
                       href="#impact-kalkylatorn"
                       className="flex items-center text-left p-2 mx-1 my-2 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 text-lg font-semibold text-gray-900"
                     >
-                      Impact kalkylatorn
+                      Impactkalkylatorn
                     </a>
 
                     <a

@@ -11,7 +11,7 @@ var stores = {
         coordinates: [18.32186, 57.62264], //long, lat
       },
       properties: {
-        title: "Stor Coop Visby",
+        title: "Stora Coop Visby",
         address: "Stenhuggarevägen 5-7, Visby",
       },
     },

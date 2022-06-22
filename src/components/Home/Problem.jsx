@@ -30,7 +30,7 @@ export function Problem() {
           <img src={solution} />
         </div>
 
-        <div className="mt-12 lg:col-span-1 col-span-2 lg:text-left text-center">
+        <div className="md:mt-0 mt-12 lg:col-span-1 col-span-2 lg:text-left text-center">
           <h1 className="lg:text-6xl text-5xl font-bold text-black ">
             Tillsammans mot en hållbarare köttproduktion
           </h1>

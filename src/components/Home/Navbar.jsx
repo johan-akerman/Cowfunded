@@ -29,7 +29,7 @@ export function Navbar() {
             className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
             href="#impact-kalkylatorn"
           >
-            Impact kalkylatorn
+            Impactkalkylatorn
           </a>
 
           <a

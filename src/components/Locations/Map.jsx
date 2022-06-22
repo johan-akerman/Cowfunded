@@ -4,7 +4,6 @@ import ReactDOM from "react-dom";
 import logo from "../../images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { Navbar } from "../Home/Navbar";
 import { Link } from "react-router-dom";
 
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -96,8 +95,8 @@ export function Map({ stores }) {
             <p className="text-lg mb-8">
               LOME finns från 30 juni under begränsad tid på utvalda
               Coop-butiker i Stockholm och på Gotland. Du hittar LOME™ Nötkött
-              (500g) i hyllan, och utvalda delar såsom oxfile, entrecote och
-              ryggbiff i delikatessdisken.
+              (500g) i hyllan, och hos Stora Coop i Visby finns också utvalda
+              delar såsom oxfile, entrecote och ryggbiff i delikatessdisken.
             </p>
 
             {stores

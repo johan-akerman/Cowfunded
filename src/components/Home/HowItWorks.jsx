@@ -55,15 +55,13 @@ export function HowItWorks() {
       </div>
 
       <div className="mx-auto text-center w-11/12">
-        <a className="cursor-not-allowed px-8 py-3 md:text-xl text-md text-center text-white font-semibold rounded-xl bg-coral opacity-50 w-full">
-          <FontAwesomeIcon icon={faLock} className="text-md mr-3" />
+        <a
+          className="px-8 py-3 md:text-xl text-md text-center text-white font-semibold rounded-xl bg-coral w-full"
+          href="https://drive.google.com/drive/folders/1umsgkPGCJQu3xeyBqXgr9-JSOUSOUh5o?usp=sharing"
+          target="_blank"
+        >
           Läs vår klimatrapport
         </a>
-
-        <p className="text-sm mt-8">
-          Klimatrapporten publiceras i anslutning till släpp av LOME i butik 30
-          juni.
-        </p>
       </div>
     </div>
   );

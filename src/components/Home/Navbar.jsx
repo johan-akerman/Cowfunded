@@ -20,6 +20,14 @@ export function Navbar() {
 
           <a
             className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
+            href="https://drive.google.com/drive/folders/1umsgkPGCJQu3xeyBqXgr9-JSOUSOUh5o?usp=sharing"
+            target="_blank"
+          >
+            Klimatrapport
+          </a>
+
+          <a
+            className="lg:block hidden text-black text-lg font-semibold hover:opacity-50 pr-8"
             href="#om-kofisar"
           >
             Kor & klimat

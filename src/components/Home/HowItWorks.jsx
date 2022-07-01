@@ -40,15 +40,11 @@ export function HowItWorks() {
       </p>
 
       <a
-        className="relative"
+        className="relative w-full"
         href="https://vimeo.com/726185231"
         target="_blank"
       >
         <img src={trailer} className="object-fill w-full rounded-3xl" />
-        <FontAwesomeIcon
-          icon={faPlayCircle}
-          className="absolute top-0 bottom-0 left-0 right-0 m-auto font-semibold lg:text-8xl text-6xl text-white hover:opacity-80"
-        />
       </a>
 
       <div className="lg:mb-32 mb-20 grid lg:grid-cols-3 grid-cols-1 gap-14 pt-24 lg:text-left text-center ">

@@ -1,8 +1,9 @@
 import iconOne from "../../images/iconOne.png";
 import iconTwo from "../../images/iconTwo.png";
 import iconThree from "../../images/iconThree.png";
+import trailer from "../../images/trailer.gif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLock } from "@fortawesome/free-solid-svg-icons";
+import { faLock, faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 
 const texts = [
   {
@@ -31,14 +32,26 @@ export function HowItWorks() {
       <h1 className="text-center lg:text-6xl text-5xl font-bold text-black ">
         Vad är hemligheten med LOME?
       </h1>
-      <p className="text-center lg:text-xl text-lg text-black mx-auto mt-5 lg:mb-0 mb-16 max-w-3xl">
+      <p className="text-center lg:text-xl text-lg text-black mx-auto mt-5 lg:mb-14 mb-16 max-w-3xl">
         Volta Greentech har utvecklat ett nytt naturligt fodertillskott baserat
         på alger med naturliga bioaktiva ämnen. Tillskottet hjälper korna att
         stå emot metanproducerande mikroorganismer. Och svenska bönder kan
         drastiskt minska sina kors utsläpp av metangaser.
       </p>
 
-      <div className="lg:mb-32 mb-20 grid lg:grid-cols-3 grid-cols-1 gap-14 lg:pt-24 lg:text-left text-center ">
+      <a
+        className="relative"
+        href="https://vimeo.com/726185231"
+        target="_blank"
+      >
+        <img src={trailer} className="object-fill w-full rounded-3xl" />
+        <FontAwesomeIcon
+          icon={faPlayCircle}
+          className="absolute top-0 bottom-0 left-0 right-0 m-auto font-semibold lg:text-8xl text-6xl text-white hover:opacity-80"
+        />
+      </a>
+
+      <div className="lg:mb-32 mb-20 grid lg:grid-cols-3 grid-cols-1 gap-14 pt-24 lg:text-left text-center ">
         {texts.map((item) => {
           return (
             <div className="text-center">

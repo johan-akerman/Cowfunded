@@ -1,6 +1,6 @@
-# 🎙️ LOME Foods
+# 🥩  LOME Foods
 
-A landingpage for LOME Foods, the world's first methane reduced meat. A collaboration between the biotech startup Volta Greentech and COOP, one of Sweden's largest supermarkets.
+A landingpage for LOME Foods, the world's first methane reduced meat. A collaboration between the biotech startup Volta Greentech and COOP, one of Sweden's largest grocery chains.
 
 **Watch it live:** www.lomefoods.com
 
